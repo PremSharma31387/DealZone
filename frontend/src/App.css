@@ -1,0 +1,63 @@
+/* * {
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+  body{
+    cursor: url("./images/cursor.png"),auto;
+  } */
+
+  /* Chrome, Safari, Edge, Opera */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+} */
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  cursor: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngaaa.com%2Fdetail%2F264361&psig=AOvVaw0zzvl74xNIiVSoSYRmqe7m&ust=1684569776720000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKC7l8v1gP8CFQAAAAAdAAAAABAG"),auto;
+  
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+}
+body::-webkit-scrollbar {
+  display:none;
+}
+
+body {
+ -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}

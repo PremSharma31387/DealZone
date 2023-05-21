@@ -1,0 +1,27 @@
+const mongoose = require("mongoose");
+
+const connectDatabase = () => {
+  mongoose
+    .connect(process.env.DB_URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      // useCreateIndex: true,
+    })
+    .then((data) => {
+      console.log(`Mongodb connected with server : ${data.connection.host} `);
+    })
+   
+};
+
+
+// const connectDatabase = () => {
+// mongoose.connect(process.env.DB_URI, { useNewUrlParser: true });
+// mongoose.connection
+//   .once("open", () => console.log("Connected"))
+//   .on("error", (error) => {
+//     console.log(`Error : ${error}`);
+//   });
+
+// }
+
+module.exports = connectDatabase;
